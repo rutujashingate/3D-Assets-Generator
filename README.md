@@ -114,7 +114,7 @@ npm start
 
 ## Project Structure
 
-\`\`\`
+```
 ai-3d-asset-builder/
 ├── app/
 │   ├── globals.css          # Global styles and Tailwind config
@@ -127,7 +127,7 @@ ai-3d-asset-builder/
 ├── next.config.mjs           # Next.js configuration
 ├── tsconfig.json             # TypeScript configuration
 └── package.json              # Project dependencies
-\`\`\`
+```
 
 ## Technologies Used
 
