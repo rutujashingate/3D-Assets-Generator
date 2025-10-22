@@ -158,74 +158,11 @@ Natural language processing for:
 - Material property inference
 - Effect detection
 
-## Customization
 
-### Adding New Shapes
 
-Edit the `createAsset` method in `AssetBuilderEngine` class:
 
-\`\`\`typescript
-case "yourShape":
-  geo = new THREE.YourGeometry(params)
-  break
-\`\`\`
 
-### Modifying AI Prompts
 
-Update the `AIAssetParser` class methods to recognize new keywords and patterns.
 
-### Styling
 
-All styles use inline CSS for maximum portability. Modify the style objects in the component to customize the appearance.
 
-## Performance Tips
-
-- The 3D viewport automatically adjusts to window size
-- Auto-rotation can be toggled for better performance
-- Export sizes affect processing time - use smaller sizes for quick exports
-
-## Browser Support
-
-- Chrome/Edge (recommended)
-- Firefox
-- Safari
-- Opera
-
-WebGL support is required for 3D rendering.
-
-## Troubleshooting
-
-### 3D Model Not Visible
-
-- Check that WebGL is enabled in your browser
-- Ensure the canvas container has proper dimensions
-- Verify Three.js is properly installed
-
-### Export Not Working
-
-- Check browser console for errors
-- Ensure the 3D model is fully loaded before exporting
-- Try a different export format
-
-### Performance Issues
-
-- Disable auto-rotation
-- Close other browser tabs
-- Reduce export size
-- Use simpler shapes with lower polygon counts
-
-## License
-
-MIT License - feel free to use this project for personal or commercial purposes.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Support
-
-For issues and questions, please open an issue on GitHub.
-
----
-
-Built with ❤️ using Next.js and Three.js
